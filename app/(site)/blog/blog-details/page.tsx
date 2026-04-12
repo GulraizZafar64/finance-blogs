@@ -1,5 +1,6 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
+import BlogData from "@/components/Blog/blogData";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -160,7 +161,7 @@ const SingleBlogPage = async () => {
                   </p>
                 </div>
 
-                <SharePost />
+                <SharePost post={BlogData[0]} />
               </div>
             </div>
           </div>
