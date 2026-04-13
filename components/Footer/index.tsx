@@ -1,8 +1,23 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { toast } from "react-hot-toast";
 
 const Footer = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    
+    if (!email || !email.includes("@")) {
+      toast.error("Please enter a valid email address");
+      return;
+    }
+    
+    toast.success("Thanks for subscribing!");
+    form.reset();
+  };
+
   return (
     <>
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
@@ -168,15 +183,18 @@ const Footer = () => {
                     Subscribe to receive future updates
                   </p>
 
-                  <form action="#">
+                  <form onSubmit={handleSubmit}>
                     <div className="relative">
                       <input
-                        type="text"
+                        type="email"
+                        name="email"
                         placeholder="Email address"
                         className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-hidden dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                        required
                       />
 
                       <button
+                        type="submit"
                         aria-label="signup to newsletter"
                         className="absolute right-0 p-4"
                       >
@@ -203,6 +221,7 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
+
                 </motion.div>
               </div>
             </div>

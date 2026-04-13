@@ -150,7 +150,7 @@
 @layer utilities {
   @media (max-width: 1280px) {
     .navbar {
-      @apply max-h-[400px] overflow-y-scroll;
+      @apply max-h-[70vh] overflow-y-auto;
     }
   }
 }
