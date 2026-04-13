@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-black dark:text-white">Email Us</h4>
-                  <p className="text-sm">hello@wealthwisehub.com</p>
+                  <p className="text-sm">gulraizzafar77@gmail.com</p>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-black dark:text-white">Call Anytime</h4>
-                  <p className="text-sm">+1 (555) 888-9999</p>
+                  <p className="text-sm">+92 306 4643016</p>
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-black dark:text-white">Main Office</h4>
-                  <p className="text-sm">Financial District, New York, NY</p>
+                  <p className="text-sm">Arfa Software Technology Park, Lahore, Pakistan</p>
                 </div>
               </div>
             </div>

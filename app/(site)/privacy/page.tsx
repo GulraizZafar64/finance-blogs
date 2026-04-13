@@ -48,7 +48,42 @@ const PrivacyPage = () => {
               WealthWiseHub's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
             </p>
 
-            <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">6. Consent</h2>
+            <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">6. Cookies and Web Beacons</h2>
+            <p>
+              Like any other website, WealthWiseHub uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+            </p>
+
+            <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">7. CCPAPrivacy Rights (Do Not Sell My Personal Information)</h2>
+            <p>
+              Under the CCPA, among other rights, California consumers have the right to:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</li>
+              <li>Request that a business delete any personal data about the consumer that a business has collected.</li>
+              <li>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li>
+            </ul>
+
+            <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">8. GDPR Data Protection Rights</h2>
+            <p>
+              We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</li>
+              <li>The right to rectification – You have the right to request that we correct any information you believe is inaccurate.</li>
+              <li>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</li>
+            </ul>
+
+            <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">9. Children's Information</h2>
+            <p>
+              Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. WealthWiseHub does not knowingly collect any Personal Identifiable Information from children under the age of 13.
+            </p>
+
+            <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">10. Contact Us</h2>
+            <p>
+              If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at gulraizzafar77@gmail.com.
+            </p>
+
+            <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">11. Consent</h2>
             <p>
               By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.
             </p>
@@ -60,3 +95,4 @@ const PrivacyPage = () => {
 };
 
 export default PrivacyPage;
+

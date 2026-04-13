@@ -4,6 +4,7 @@ import BlogData from "@/components/Blog/blogData";
 import { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 
 export async function generateMetadata({
   params,
@@ -20,8 +21,28 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${post.title} - Finance Blog`,
+    title: `${post.title} | WealthWiseHub`,
     description: post.metadata,
+    openGraph: {
+      title: post.title,
+      description: post.metadata,
+      type: "article",
+      publishedTime: post.publishedAt,
+      images: [
+        {
+          url: post.mainImage,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.metadata,
+      images: [post.mainImage],
+    },
   };
 }
 
@@ -37,8 +58,35 @@ const SingleBlogPage = async ({
     notFound();
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    image: post.mainImage,
+    datePublished: post.publishedAt,
+    author: {
+      "@type": "Person",
+      name: post.author?.name || "Finance Expert",
+      url: "https://wealthwisehub.vercel.app/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "WealthWiseHub",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://wealthwisehub.vercel.app/images/logo/logo.png",
+      },
+    },
+    description: post.metadata,
+  };
+
   return (
     <>
+      <Script
+        id="blog-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
@@ -78,16 +126,16 @@ const SingleBlogPage = async ({
 
                 <ul>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Loans</a>
+                    <a href="/blog?category=Loans">Loans</a>
                   </li>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Credit Cards</a>
+                    <a href="/blog?category=Credit Cards">Credit Cards</a>
                   </li>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Personal Finance</a>
+                    <a href="/blog?category=Personal Finance">Personal Finance</a>
                   </li>
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Investing</a>
+                    <a href="/blog?category=Investing">Investing</a>
                   </li>
                 </ul>
               </div>
@@ -103,14 +151,15 @@ const SingleBlogPage = async ({
                       src={post.mainImage}
                       alt={post.title}
                       fill
+                      priority
                       className="rounded-md object-cover object-center"
                     />
                   </div>
                 </div>
 
-                <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
+                <h1 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
                   {post.title}
-                </h2>
+                </h1>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
@@ -145,3 +194,4 @@ const SingleBlogPage = async ({
 };
 
 export default SingleBlogPage;
+

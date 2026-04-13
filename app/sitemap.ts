@@ -1,10 +1,9 @@
 import { MetadataRoute } from "next";
+import BlogData from "@/components/Blog/blogData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://wealthwisehub.vercel.app";
 
-  // In a real app, you would fetch blog posts and categories here
-  // For now, let's add the static pages
   const staticPages = [
     "",
     "/about",
@@ -19,5 +18,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === "" ? 1 : 0.8,
   }));
 
-  return [...staticPages];
+  const blogPosts = BlogData.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.publishedAt || new Date()),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...blogPosts];
 }
+
