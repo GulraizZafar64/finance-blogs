@@ -39,6 +39,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta
+          name="google-site-verification"
+          content="suwBMyzXLvp7WY_0KnvEZhitaPuMooCBX_BSVs0Qg5s"
+        />
         {/* Google AdSense Script Placeholder */}
         {/* Replace 'ca-pub-XXXXXXXXXXXXXXXX' with your actual AdSense Publisher ID */}
         <Script
