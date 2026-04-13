@@ -15,6 +15,11 @@ const nextConfig = {
         port: "",
       },
       {
+        protocol: "https",
+        hostname: "media.istockphoto.com",
+        port: "",
+      },
+      {
         protocol: "http",
         hostname: "localhost",
         port: "",

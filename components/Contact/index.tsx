@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-black dark:text-white">Email Us</h4>
-                  <p className="text-sm">hello@wealthwise.com</p>
+                  <p className="text-sm">hello@wealthwisehub.com</p>
                 </div>
               </div>
 

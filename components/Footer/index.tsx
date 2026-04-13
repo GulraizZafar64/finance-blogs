@@ -31,7 +31,7 @@ const Footer = () => {
                 <a href="/">
                   <span className="text-2xl font-bold text-black dark:text-white flex items-center gap-2">
                     <span className="text-primary">$</span>
-                    <span>WealthWise</span>
+                    <span>WealthWiseHub</span>
                   </span>
                 </a>
 
@@ -46,7 +46,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@financeblog.com
+                  hello@wealthwisehub.com
                 </a>
               </motion.div>
 
@@ -267,7 +267,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} WealthWise. All rights reserved.
+                &copy; {new Date().getFullYear()} WealthWiseHub. All rights reserved.
               </p>
             </motion.div>
 

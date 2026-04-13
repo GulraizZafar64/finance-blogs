@@ -312,7 +312,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 9,
-    mainImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    mainImage: "https://media.istockphoto.com/id/2199611094/photo/golden-letter-plate-of-a-black-front-door-full-of-colorful-letters-labelled-with-the-word.webp?a=1&b=1&s=612x612&w=0&k=20&c=v_4KdV1j-r7yQ4gKsbxIzn3RHotrZ9JDxC2vSpWP1q8=",
     title: "The Benefits of Debt Consolidation for Small Businesses",
     slug: "debt-consolidation-small-business",
     metadata: "Learn how consolidating multiple business debts into a single, manageable loan can improve cash flow and fuel growth.",
@@ -823,7 +823,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 111,
-    mainImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    mainImage: "https://media.istockphoto.com/id/2194731393/photo/falling-money-usa-dollar-corporate-business-finance-crisis.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ll_vcFn3vzO7hP0HLnZa5UXYWYOE37W9puCUcG7ylg0=",
     title: "Best Business Credit Cards of 2026: Maximize Your Company's Spending",
     slug: "best-business-credit-cards",
     metadata: "The right business credit card separates your personal and business finances, builds business credit, and earns valuable rewards on every dollar your company spends.",
@@ -861,7 +861,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 112,
-    mainImage: "https://images.unsplash.com/photo-1641614239432-11bc99eba97f?w=800&q=80",
+    mainImage: "https://images.unsplash.com/photo-1724781189475-a332f44de593?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFRoZSUyMEJlbmVmaXRzJTIwb2YlMjBEZWJ0JTIwQ29uc29saWRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
     title: "Best Credit Cards for Bad Credit in 2026",
     slug: "credit-cards-bad-credit",
     metadata: "Bad credit doesn't mean you can't get a credit card. The right card can help you rebuild your score while giving you access to a line of credit.",

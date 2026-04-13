@@ -24,7 +24,7 @@ const About = () => {
               <div className="relative h-full w-full overflow-hidden rounded-2xl shadow-solid-l">
                 <Image
                   src="/images/about/about-light-01.png"
-                  alt="About WealthWise"
+                  alt="About WealthWiseHub"
                   className="object-cover dark:opacity-80"
                   fill
                 />
@@ -67,7 +67,7 @@ const About = () => {
                 </span>
               </h2>
               <p className="mb-8 text-lg leading-relaxed">
-                At WealthWise, we believe that financial freedom shouldn't be a privilege of the few. Since 2018, we've dedicated ourselves to demystifying the world of finance for millions of readers worldwide.
+                At WealthWiseHub, we believe that financial freedom shouldn't be a privilege of the few. Since 2018, we've dedicated ourselves to demystifying the world of finance for millions of readers worldwide, providing actionable strategies for sustainable wealth creation.
               </p>
 
               <div className="space-y-6">

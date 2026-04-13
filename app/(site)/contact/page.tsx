@@ -3,8 +3,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us - WealthWise Finance Blog",
-  description: "Get in touch with the WealthWise team for any inquiries, feedback, or support regarding our financial advice and content.",
+  title: "Contact Us - WealthWiseHub",
+  description: "Get in touch with the WealthWiseHub team for any inquiries, feedback, or support regarding our financial advice and content.",
 };
 
 const ContactPage = () => {

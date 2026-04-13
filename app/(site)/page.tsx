@@ -9,10 +9,8 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 
 export const metadata: Metadata = {
-  title: "Finance Blog - Master Your Wealth and Investments",
-
-  // other metadata
-  description: "Your go-to source for financial insights, wealth management, and smart investing."
+  title: "WealthWiseHub | Expert Financial Insights & Wealth Management",
+  description: "WealthWiseHub provides professional insights on investing, crypto, insurance, and personal finance to empower your financial journey.",
 };
 
 export default function Home() {
