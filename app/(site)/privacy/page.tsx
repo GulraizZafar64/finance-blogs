@@ -2,8 +2,8 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - WealthWiseHub",
-  description: "Our Privacy Policy outlines how WealthWiseHub collects, uses, and protects your personal information when you visit our finance blog.",
+  title: "Privacy Policy - WealthPilot",
+  description: "Our Privacy Policy outlines how WealthPilot collects, uses, and protects your personal information when you visit our finance blog.",
 };
 
 const PrivacyPage = () => {
@@ -17,7 +17,7 @@ const PrivacyPage = () => {
           <div className="text-body-color dark:text-body-color-dark space-y-6">
             <p>Last updated: {new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}</p>
             <p>
-              At WealthWiseHub, accessible from https://wealthwisehub.vercel.app, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by WealthWiseHub and how we use it.
+              At WealthPilot, accessible from https://wealthpilot.blog, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by WealthPilot and how we use it.
             </p>
             
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">1. Information We Collect</h2>
@@ -40,17 +40,17 @@ const PrivacyPage = () => {
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">4. Privacy Policies</h2>
             <p>
-              Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on WealthWiseHub, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+              Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on WealthPilot, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
             </p>
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">5. Third Party Privacy Policies</h2>
             <p>
-              WealthWiseHub's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+              WealthPilot's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
             </p>
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">6. Cookies and Web Beacons</h2>
             <p>
-              Like any other website, WealthWiseHub uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+              Like any other website, WealthPilot uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
             </p>
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">7. CCPAPrivacy Rights (Do Not Sell My Personal Information)</h2>
@@ -75,7 +75,7 @@ const PrivacyPage = () => {
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">9. Children's Information</h2>
             <p>
-              Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. WealthWiseHub does not knowingly collect any Personal Identifiable Information from children under the age of 13.
+              Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. WealthPilot does not knowingly collect any Personal Identifiable Information from children under the age of 13.
             </p>
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">10. Contact Us</h2>

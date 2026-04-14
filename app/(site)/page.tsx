@@ -9,8 +9,8 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 
 export const metadata: Metadata = {
-  title: "WealthWiseHub | Expert Financial Insights & Wealth Management",
-  description: "WealthWiseHub provides professional insights on investing, crypto, insurance, and personal finance to empower your financial journey.",
+  title: "WealthPilot | Expert Financial Insights & Wealth Management",
+  description: "WealthPilot provides professional insights on investing, crypto, insurance, and personal finance to empower your financial journey.",
 };
 
 export default function Home() {

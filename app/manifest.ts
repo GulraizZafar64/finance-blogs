@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "WealthWiseHub - Expert Financial Insights",
-    short_name: "WealthWiseHub",
+    name: "WealthPilot - Expert Financial Insights",
+    short_name: "WealthPilot",
     description: "Expert advice on personal finance, investment strategies, and financial freedom.",
     start_url: "/",
     display: "standalone",

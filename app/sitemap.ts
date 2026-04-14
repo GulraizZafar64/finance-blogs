@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import BlogData from "@/components/Blog/blogData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://wealthwisehub.vercel.app";
+  const baseUrl = "https://wealthpilot.blog";
 
   const staticPages = [
     "",

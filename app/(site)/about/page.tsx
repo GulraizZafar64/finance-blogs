@@ -3,8 +3,8 @@ import About from "@/components/About";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us - WealthWise Finance Blog",
-  description: "Learn more about WealthWise, your trusted partner in financial success. Our expert team provides actionable advice for investing, personal finance, and wealth growth.",
+  title: "About Us - WealthPilot Finance Blog",
+  description: "Learn more about WealthPilot, your trusted partner in financial success. Our expert team provides actionable advice for investing, personal finance, and wealth growth.",
 };
 
 const AboutPage = () => {

@@ -21,7 +21,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${post.title} | WealthWiseHub`,
+    title: `${post.title} | WealthPilot`,
     description: post.metadata,
     openGraph: {
       title: post.title,
@@ -67,14 +67,14 @@ const SingleBlogPage = async ({
     author: {
       "@type": "Person",
       name: post.author?.name || "Finance Expert",
-      url: "https://wealthwisehub.vercel.app/about",
+      url: "https://wealthpilot.blog/about",
     },
     publisher: {
       "@type": "Organization",
-      name: "WealthWiseHub",
+      name: "WealthPilot",
       logo: {
         "@type": "ImageObject",
-        url: "https://wealthwisehub.vercel.app/images/logo/logo.png",
+        url: "https://wealthpilot.blog/images/logo/logo.png",
       },
     },
     description: post.metadata,

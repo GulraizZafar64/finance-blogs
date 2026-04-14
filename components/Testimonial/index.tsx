@@ -22,7 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `READER FEEDBACK`,
                 subtitle: `What Our Readers Say`,
-                description: `Join thousands of smart investors who use WealthWise to plan their financial freedom.`,
+                description: `Join thousands of smart investors who use WealthPilot to plan their financial freedom.`,
               }}
             />
           </div>

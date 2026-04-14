@@ -15,7 +15,7 @@ const Feature = () => {
             headerInfo={{
               title: "WHY TRUST US",
               subtitle: "Our Editorial Standards",
-              description: `We believe financial literacy should be accessible, accurate, and completely unbiased. Here's why millions depend on WealthWise.`,
+              description: `We believe financial literacy should be accessible, accurate, and completely unbiased. Here's why millions depend on WealthPilot.`,
             }}
           />
           {/* <!-- Section Title End --> */}

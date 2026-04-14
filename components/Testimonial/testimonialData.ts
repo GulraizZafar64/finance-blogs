@@ -9,7 +9,7 @@ export const testimonialData: Testimonial[] = [
     designation: "Software Engineer",
     image: image1,
     content:
-      "Since subscribing to WealthWise, I've successfully rebalanced my entire 401(k) and finally started investing in index funds. The advice is always straightforward and practical.",
+      "Since subscribing to WealthPilot, I've successfully rebalanced my entire 401(k) and finally started investing in index funds. The advice is always straightforward and practical.",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const testimonialData: Testimonial[] = [
     designation: "Retail Investor",
     image: image1,
     content:
-      "The crypto market analysis is unlike anything else out there. Instead of hyping up coins, WealthWise breaks down the actual underlying utility and economics. Highly recommended.",
+      "The crypto market analysis is unlike anything else out there. Instead of hyping up coins, WealthPilot breaks down the actual underlying utility and economics. Highly recommended.",
   },
   {
     id: 4,
