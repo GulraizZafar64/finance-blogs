@@ -80,7 +80,7 @@ const PrivacyPage = () => {
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">10. Contact Us</h2>
             <p>
-              If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at gulraizzafar77@gmail.com.
+              If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at contact@wealthpilot.blog.
             </p>
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">11. Consent</h2>

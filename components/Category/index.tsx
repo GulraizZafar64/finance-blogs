@@ -80,7 +80,7 @@ const Category = () => {
           <SectionHeader
             headerInfo={{
               title: "HIGH-VALUE INSIGHTS",
-              subtitle: "High CPC Niches",
+              subtitle: "Financial Topics",
               description: "Expert guides and comparisons for the most competitive financial markets.",
             }}
           />

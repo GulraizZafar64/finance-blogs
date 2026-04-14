@@ -66,7 +66,7 @@ const SingleBlogPage = async ({
     datePublished: post.publishedAt,
     author: {
       "@type": "Person",
-      name: post.author?.name || "Finance Expert",
+      name: post.author?.name || "Gulraiz Zafar",
       url: "https://wealthpilot.blog/about",
     },
     publisher: {
@@ -164,7 +164,7 @@ const SingleBlogPage = async ({
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    {post.author?.name || "Finance Expert"}
+                    {post.author?.name || "Gulraiz Zafar"}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
@@ -181,6 +181,29 @@ const SingleBlogPage = async ({
 
                 <div className="blog-details prose prose-slate max-w-none dark:prose-invert">
                   <div dangerouslySetInnerHTML={{ __html: post.body || "" }} />
+                </div>
+
+                {/* Author Bio Section */}
+                <div className="mt-12.5 flex flex-col items-center gap-6 rounded-xl border border-stroke bg-slate-50 p-6 dark:border-strokedark dark:bg-black md:flex-row md:items-start md:p-10">
+                  <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full border-2 border-primary">
+                    <Image
+                      src="/images/user/user-01.png"
+                      alt="Gulraiz Zafar"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div>
+                    <h4 className="mb-2 text-xl font-bold text-black dark:text-white">
+                      Gulraiz Zafar
+                    </h4>
+                    <p className="mb-4 text-sm font-medium text-primary">
+                      Senior Financial Analyst & Investment Strategist
+                    </p>
+                    <p className="text-base leading-relaxed">
+                      Gulraiz Zafar is a seasoned financial analyst with over a decade of experience in personal finance, stock market analysis, and wealth management. He specializes in helping individuals build sustainable passive income streams and optimize their investment portfolios for long-term growth.
+                    </p>
+                  </div>
                 </div>
 
                 <SharePost post={post} />

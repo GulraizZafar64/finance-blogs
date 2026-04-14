@@ -78,7 +78,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-black dark:text-white">
                     Email Us
                   </h4>
-                  <p className="text-sm">gulraizzafar77@gmail.com</p>
+                  <a href="mailto:contact@wealthpilot.blog" className="text-sm hover:text-primary transition-colors">contact@wealthpilot.blog</a>
                 </div>
               </div>
 
@@ -101,7 +101,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-black dark:text-white">
                     Call Anytime
                   </h4>
-                  <p className="text-sm">+92 306 4643016</p>
+                  <a href="tel:+923064643016" className="text-sm hover:text-primary transition-colors">+92 306 4643016</a>
                 </div>
               </div>
 

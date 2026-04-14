@@ -37,7 +37,7 @@ const About = () => {
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -bottom-10 -right-5 z-10 hidden rounded-xl border border-white bg-white/70 p-5 shadow-solid-7 backdrop-blur-md dark:border-strokedark dark:bg-blacksection/70 sm:block"
               >
-                <p className="text-3xl font-bold text-primary">15K+</p>
+                <p className="text-3xl font-bold text-primary">Join Us</p>
                 <p className="text-sm font-medium text-black dark:text-white">Active Readers</p>
               </motion.div>
             </motion.div>
@@ -67,7 +67,7 @@ const About = () => {
                 </span>
               </h2>
               <p className="mb-8 text-lg leading-relaxed">
-                At WealthPilot, we believe that financial freedom shouldn't be a privilege of the few. Since 2018, we've dedicated ourselves to demystifying the world of finance for millions of readers worldwide, providing actionable strategies for sustainable wealth creation.
+                At WealthPilot, we believe that financial freedom shouldn't be a privilege of the few. We've dedicated ourselves to demystifying the world of finance for readers worldwide, providing actionable strategies for sustainable wealth creation.
               </p>
 
               <div className="space-y-6">
@@ -116,7 +116,7 @@ const About = () => {
             </div>
             <div className="flex w-full flex-wrap justify-center gap-8 lg:w-2/5 lg:justify-end">
               <div className="text-center">
-                <p className="text-4xl font-bold text-white">500+</p>
+                <p className="text-4xl font-bold text-white">Daily</p>
                 <p className="text-sm text-manatee">Expert Guides</p>
               </div>
               <div className="text-center">

@@ -58,10 +58,10 @@ const Footer = () => {
                   contact
                 </p>
                 <a
-                  href="mailto:gulraizzafar77@gmail.com"
+                  href="mailto:contact@wealthpilot.blog"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  gulraizzafar77@gmail.com
+                  contact@wealthpilot.blog
                 </a>
               </motion.div>
 
@@ -138,6 +138,11 @@ const Footer = () => {
                     <li>
                       <a href="/about" className="mb-3 inline-block hover:text-primary">
                         About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/team" className="mb-3 inline-block hover:text-primary">
+                        Meet the Team
                       </a>
                     </li>
                     <li>
