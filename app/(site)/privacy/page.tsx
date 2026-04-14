@@ -27,7 +27,7 @@ const PrivacyPage = () => {
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">2. Google DoubleClick DART Cookie</h2>
             <p>
-              Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" className="text-primary underline">https://policies.google.com/technologies/ads</a>
+              Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to wealthpilot.blog and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" className="text-primary underline">https://policies.google.com/technologies/ads</a>
             </p>
 
             <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-4">3. Our Advertising Partners</h2>

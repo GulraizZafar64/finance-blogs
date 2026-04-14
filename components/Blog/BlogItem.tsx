@@ -5,7 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const BlogItem = ({ blog }: { blog: Blog }) => {
-  const { mainImage, title, metadata, slug } = blog;
+  const { mainImage, title, metadata, slug, author, publishedAt } = blog;
+  const authorName = author?.name || "WealthPilot Team";
 
   return (
     <>
@@ -32,12 +33,19 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
         </Link>
 
         <div className="px-4">
-          <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
+          <div className="mb-3 mt-7.5 flex flex-wrap items-center gap-3 text-sm text-slate-500 dark:text-slate-400">
+            {publishedAt && <span>{publishedAt}</span>}
+            <span className="inline-flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-slate-400 dark:bg-slate-500" />
+              <span>{authorName}</span>
+            </span>
+          </div>
+          <h3 className="mb-3.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
             <Link href={`/blog/${slug}`}>
               {`${title.slice(0, 40)}...`}
             </Link>
           </h3>
-          <p className="line-clamp-3">{metadata}</p>
+          <p className="line-clamp-3 text-slate-600 dark:text-slate-300">{metadata}</p>
         </div>
       </motion.div>
     </>

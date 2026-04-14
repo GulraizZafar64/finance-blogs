@@ -10,17 +10,36 @@ export const metadata: Metadata = {
 const BlogPage = async ({
   searchParams,
 }: {
-  searchParams: { category?: string };
+  searchParams: { category?: string; search?: string };
 }) => {
   const category = (await searchParams).category;
+  const search = (await searchParams).search;
 
-  const filteredBlogs = category
-    ? BlogData.filter((blog) =>
-        blog.tags?.some(
-          (tag) => tag.toLowerCase().replace(/\s+/g, "-") === category,
-        ),
-      )
-    : BlogData;
+  let filteredBlogs = BlogData;
+
+  if (category) {
+    filteredBlogs = filteredBlogs.filter((blog) =>
+      blog.tags?.some(
+        (tag) => tag.toLowerCase().replace(/\s+/g, "-") === category,
+      ),
+    );
+  }
+
+  if (search) {
+    const searchTerm = search.toLowerCase();
+    filteredBlogs = filteredBlogs.filter((blog) => {
+      const content = [
+        blog.title,
+        blog.metadata,
+        blog.tags?.join(" "),
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+
+      return content.includes(searchTerm);
+    });
+  }
 
   return (
     <>

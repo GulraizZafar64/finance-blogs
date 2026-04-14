@@ -19,18 +19,17 @@ const SingleBlogPage = async () => {
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
               <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
-                <form
-                  action="https://formbold.com/s/unique_form_id"
-                  method="POST"
-                >
+                <form action="/blog" method="GET">
                   <div className="relative">
                     <input
                       type="text"
+                      name="search"
                       placeholder="Search Here..."
                       className="w-full rounded-lg border border-stroke px-6 py-4 shadow-solid-12 focus:border-primary focus:outline-hidden dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                     />
 
                     <button
+                      type="submit"
                       className="absolute right-0 top-0 p-5"
                       aria-label="search-icon"
                     >
@@ -100,7 +99,7 @@ const SingleBlogPage = async () => {
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: April 10, 2026
                     </span>{" "}
                   </li>
                   <li>
@@ -158,6 +157,13 @@ const SingleBlogPage = async () => {
                     vel turpis in dolor volutpat imperdiet in ut mi. Integer non
                     volutpat nulla. Nunc elementum elit viverra, tempus quam
                     non, interdum ipsum.
+                  </p>
+                </div>
+
+                <div className="mt-10 rounded-2xl border border-primary/20 bg-primary/5 p-6 text-sm text-slate-700 dark:border-primary/30 dark:bg-white/5 dark:text-slate-200">
+                  <p className="font-semibold text-black dark:text-white">Financial Disclaimer</p>
+                  <p>
+                    The content on this page is for educational purposes only and is not financial advice. Always consult a licensed financial advisor before making any investment, credit, insurance, or loan decision.
                   </p>
                 </div>
 
