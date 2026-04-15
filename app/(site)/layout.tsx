@@ -60,11 +60,10 @@ export default function RootLayout({
           name="google-site-verification"
           content="suwBMyzXLvp7WY_0KnvEZhitaPuMooCBX_BSVs0Qg5s"
         />
-        {/* Google AdSense Script Placeholder */}
-        {/* Replace 'ca-pub-XXXXXXXXXXXXXXXX' with your actual AdSense Publisher ID */}
+        {/* Google AdSense Script */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8041377146207222"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

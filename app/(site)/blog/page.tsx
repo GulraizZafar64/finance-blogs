@@ -15,7 +15,11 @@ const BlogPage = async ({
   const category = (await searchParams).category;
   const search = (await searchParams).search;
 
-  let filteredBlogs = BlogData;
+  let filteredBlogs = [...BlogData].sort((a, b) => {
+    const dateA = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+    const dateB = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+    return dateB - dateA;
+  });
 
   if (category) {
     filteredBlogs = filteredBlogs.filter((blog) =>
