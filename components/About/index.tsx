@@ -198,6 +198,75 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* <!-- ===== Author / Founder Section ===== --> */}
+      <section className="bg-slate-50 py-20 dark:bg-blackSection/20 lg:py-25">
+        <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
+          <div className="flex flex-col items-center gap-10 lg:flex-row lg:items-start lg:gap-20">
+            <div className="h-48 w-48 shrink-0 overflow-hidden rounded-full border-4 border-white shadow-solid-9 dark:border-strokedark lg:h-64 lg:w-64">
+              <Image
+                src="/images/team/founder.PNG"
+                alt="Gulraiz Zafar"
+                width={256}
+                height={256}
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="w-full">
+              <span className="mb-4 inline-block text-lg font-medium text-primary">Founder & Editor-in-Chief</span>
+              <h2 className="mb-6 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+                Meet Gulraiz Zafar
+              </h2>
+              <p className="mb-6 text-lg leading-relaxed">
+                Gulraiz Zafar is a seasoned financial analyst and the visionary behind WealthPilot. With over a decade of experience in personal finance, investment strategy, and global market analysis, Gulraiz has helped thousands of readers navigate the complexities of modern wealth management.
+              </p>
+              <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-manatee">
+                Recognizing a gap in accessible, data-driven financial education, Gulraiz founded WealthPilot to provide clear, actionable insights for every stage of the financial journey. His commitment to editorial integrity and "User-First" financial advice is the cornerstone of every article published on this platform.
+              </p>
+              
+              <div className="flex items-center gap-6">
+                 <div>
+                    <h4 className="text-xl font-bold text-black dark:text-white">10+ Years</h4>
+                    <p className="text-sm">Experience</p>
+                 </div>
+                 <div className="h-10 w-px bg-stroke dark:bg-strokedark"></div>
+                 <div>
+                    <h4 className="text-xl font-bold text-black dark:text-white">Lahore, PK</h4>
+                    <p className="text-sm">Home Base</p>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <!-- ===== Editorial Standards Section ===== --> */}
+      <section className="py-20 lg:py-25">
+        <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
+          <div className="rounded-3xl bg-primary p-10 text-white lg:p-15">
+            <div className="flex flex-col gap-10 lg:flex-row lg:items-center">
+              <div className="lg:w-1/2">
+                <h2 className="mb-6 text-3xl font-bold xl:text-sectiontitle2">
+                  Our Editorial <br /> Integrity
+                </h2>
+                <p className="text-lg text-white/80">
+                  Transparency and accuracy are non-negotiable at WealthPilot. Every guide we publish undergoes a multi-step verification process to ensure the highest quality of financial data.
+                </p>
+              </div>
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:w-1/2">
+                <div className="rounded-2xl bg-white/10 p-6 backdrop-blur-sm">
+                  <p className="mb-2 font-bold">Fact Checked</p>
+                  <p className="text-sm text-white/70">Verified against official sources like the SEC, IRS, and Federal Reserve.</p>
+                </div>
+                <div className="rounded-2xl bg-white/10 p-6 backdrop-blur-sm">
+                  <p className="mb-2 font-bold">Independent</p>
+                  <p className="text-sm text-white/70">No sponsored content or affiliate bias in our core reviews.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

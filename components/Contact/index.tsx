@@ -54,7 +54,7 @@ const Contact = () => {
             </h2>
             <p className="mb-12 text-lg">
               Have questions about investing, personal finance, or our editorial
-              standards? Reach out to our expert team.
+              standards? Reach out to our expert team. We typically respond within <span className="text-primary font-bold">24-48 hours</span>.
             </p>
 
             <div className="space-y-6">
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-black dark:text-white">
-                    Email Us
+                    Editorial & Support
                   </h4>
                   <a href="mailto:contact@wealthpilot.blog" className="text-sm hover:text-primary transition-colors">contact@wealthpilot.blog</a>
                 </div>
