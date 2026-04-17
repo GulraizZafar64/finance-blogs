@@ -160,6 +160,11 @@ const Footer = () => {
                         Privacy Policy
                       </a>
                     </li>
+                    <li>
+                      <a href="/disclaimer" className="mb-3 inline-block hover:text-primary">
+                        Disclaimer
+                      </a>
+                    </li>
                   </ul>
                 </motion.div>
 
@@ -262,6 +267,11 @@ const Footer = () => {
                 <li>
                   <a href="/contact" className="hover:text-primary">
                     Support
+                  </a>
+                </li>
+                <li>
+                  <a href="/disclaimer" className="hover:text-primary">
+                    Disclaimer
                   </a>
                 </li>
               </ul>
