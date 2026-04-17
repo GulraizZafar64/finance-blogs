@@ -136,7 +136,7 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a href="/about-us" className="mb-3 inline-block hover:text-primary">
+                      <a href="/about" className="mb-3 inline-block hover:text-primary">
                         About Us
                       </a>
                     </li>
