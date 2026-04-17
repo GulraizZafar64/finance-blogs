@@ -199,41 +199,109 @@ const About = () => {
         </div>
       </section>
 
-      {/* <!-- ===== Author / Founder Section ===== --> */}
-      <section className="bg-slate-50 py-20 dark:bg-blackSection/20 lg:py-25">
+      {/* ===== Author / Founder Section ===== */}
+      <section className="bg-slate-50 py-20 dark:bg-blacksection/20 lg:py-25">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
-          <div className="flex flex-col items-center gap-10 lg:flex-row lg:items-start lg:gap-20">
-            <div className="h-48 w-48 shrink-0 overflow-hidden rounded-full border-4 border-white shadow-solid-9 dark:border-strokedark lg:h-64 lg:w-64">
-              <Image
-                src="/images/team/founder.PNG"
-                alt="Gulraiz Zafar"
-                width={256}
-                height={256}
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className="w-full">
-              <span className="mb-4 inline-block text-lg font-medium text-primary">Founder & Editor-in-Chief</span>
-              <h2 className="mb-6 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
-                Meet Gulraiz Zafar
-              </h2>
-              <p className="mb-6 text-lg leading-relaxed">
-                Gulraiz Zafar is a seasoned financial analyst and the visionary behind WealthPilot. With over a decade of experience in personal finance, investment strategy, and global market analysis, Gulraiz has helped thousands of readers navigate the complexities of modern wealth management.
-              </p>
-              <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-manatee">
-                Recognizing a gap in accessible, data-driven financial education, Gulraiz founded WealthPilot to provide clear, actionable insights for every stage of the financial journey. His commitment to editorial integrity and "User-First" financial advice is the cornerstone of every article published on this platform.
-              </p>
-              
-              <div className="flex items-center gap-6">
-                 <div>
-                    <h4 className="text-xl font-bold text-black dark:text-white">10+ Years</h4>
-                    <p className="text-sm">Experience</p>
-                 </div>
-                 <div className="h-10 w-px bg-stroke dark:bg-strokedark"></div>
-                 <div>
-                    <h4 className="text-xl font-bold text-black dark:text-white">Lahore, PK</h4>
-                    <p className="text-sm">Home Base</p>
-                 </div>
+
+          {/* Header */}
+          <div className="mb-12 text-center">
+            <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold tracking-wider text-primary uppercase">
+              <span className="h-2 w-2 animate-pulse rounded-full bg-primary" />
+              The Human Behind WealthPilot
+            </span>
+            <h2 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+              Meet Gulraiz Zafar
+            </h2>
+          </div>
+
+          {/* Main card */}
+          <div className="rounded-3xl border border-stroke bg-white p-8 shadow-solid-3 dark:border-strokedark dark:bg-black lg:p-12">
+            <div className="flex flex-col items-center gap-10 lg:flex-row lg:items-start lg:gap-16">
+              {/* Photo + badge */}
+              <div className="flex shrink-0 flex-col items-center gap-4">
+                <div className="h-52 w-52 overflow-hidden rounded-full border-4 border-primary shadow-solid-9">
+                  <Image
+                    src="/images/team/founder.PNG"
+                    alt="Gulraiz Zafar — Founder of WealthPilot"
+                    width={208}
+                    height={208}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="rounded-full bg-primary px-5 py-1.5 text-sm font-bold text-white">
+                  ✓ Verified Author
+                </div>
+                <div className="flex gap-4">
+                  <a href="https://www.linkedin.com/in/gulraiz-zafar-811876330/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/></svg>
+                  </a>
+                </div>
+              </div>
+
+              {/* Bio content */}
+              <div className="w-full">
+                <h3 className="mb-1 text-2xl font-bold text-black dark:text-white">
+                  Gulraiz Zafar
+                </h3>
+                <p className="mb-6 text-sm font-semibold tracking-wide text-primary">
+                  Senior Financial Analyst &amp; Editor-in-Chief — WealthPilot
+                </p>
+
+                <p className="mb-5 text-lg leading-relaxed">
+                  Gulraiz Zafar is the founder and lead financial analyst behind WealthPilot. With over a decade of intensive study and practice in personal finance, U.S. investment markets, and financial regulation, he created WealthPilot to give everyday readers access to the same caliber of financial analysis previously available only to institutional clients and high-net-worth individuals.
+                </p>
+
+                <p className="mb-8 leading-relaxed text-slate-600 dark:text-manatee">
+                  His background spans personal finance strategy, mortgage and lending analysis, insurance product evaluation, retirement planning frameworks, and tax optimization. Every article published on WealthPilot is verified against primary regulatory sources — including the SEC, FINRA, IRS, CFPB, Federal Reserve, and HUD — before publication.
+                </p>
+
+                {/* Credential grid */}
+                <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  <div className="rounded-xl border border-stroke p-4 dark:border-strokedark">
+                    <p className="mb-1 text-xs font-bold uppercase tracking-wider text-primary">Academic Background</p>
+                    <p className="text-sm">B.Sc. Economics &amp; Finance — University of the Punjab, Lahore</p>
+                  </div>
+                  <div className="rounded-xl border border-stroke p-4 dark:border-strokedark">
+                    <p className="mb-1 text-xs font-bold uppercase tracking-wider text-primary">Editorial Standard</p>
+                    <p className="text-sm">All data cross-referenced with SEC, IRS, CFPB, FINRA &amp; Federal Reserve publications</p>
+                  </div>
+                  <div className="rounded-xl border border-stroke p-4 dark:border-strokedark">
+                    <p className="mb-1 text-xs font-bold uppercase tracking-wider text-primary">Specializations</p>
+                    <p className="text-sm">Index Investing · Mortgage Analysis · Debt Consolidation · Credit Optimization · Retirement Planning</p>
+                  </div>
+                  <div className="rounded-xl border border-stroke p-4 dark:border-strokedark">
+                    <p className="mb-1 text-xs font-bold uppercase tracking-wider text-primary">Location</p>
+                    <p className="text-sm">Lahore, Pakistan — covering U.S. personal finance markets</p>
+                  </div>
+                </div>
+
+                {/* Stats */}
+                <div className="mb-8 flex flex-wrap gap-8">
+                  <div>
+                    <h4 className="text-2xl font-bold text-black dark:text-white">10+</h4>
+                    <p className="text-sm text-slate-500">Yrs. Experience</p>
+                  </div>
+                  <div className="h-10 w-px bg-stroke dark:bg-strokedark hidden sm:block" />
+                  <div>
+                    <h4 className="text-2xl font-bold text-black dark:text-white">30+</h4>
+                    <p className="text-sm text-slate-500">Guides Published</p>
+                  </div>
+                  <div className="h-10 w-px bg-stroke dark:bg-strokedark hidden sm:block" />
+                  <div>
+                    <h4 className="text-2xl font-bold text-black dark:text-white">80+</h4>
+                    <p className="text-sm text-slate-500">Regulatory Sources</p>
+                  </div>
+                </div>
+
+                <a
+                  href="/author/gulraiz-zafar"
+                  className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 font-medium text-white transition-all hover:bg-primaryho"
+                >
+                  View Full Author Profile
+                  <svg width="16" height="16" viewBox="0 0 14 14" fill="currentColor">
+                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

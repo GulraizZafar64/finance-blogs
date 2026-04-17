@@ -193,30 +193,70 @@ const SingleBlogPage = async ({ params }: { params: { slug: string } }) => {
                   </p>
                 </div>
 
-                {/* Author Bio Section */}
-                <div className="border-stroke dark:border-strokedark mt-12.5 flex flex-col items-center gap-6 rounded-xl border bg-slate-50 p-6 md:flex-row md:items-start md:p-10 dark:bg-black">
-                  <div className="border-primary relative h-24 w-24 shrink-0 overflow-hidden rounded-full">
-                    <Image
-                      src="/images/team/founder.PNG"
-                      alt="Gulraiz Zafar"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h4 className="mb-2 text-xl font-bold text-black dark:text-white">
-                      Gulraiz Zafar
-                    </h4>
-                    <p className="text-primary mb-4 text-sm font-medium">
-                      Senior Financial Analyst & Investment Strategist
-                    </p>
-                    <p className="text-base leading-relaxed">
-                      Gulraiz Zafar is a seasoned financial analyst with over a
-                      decade of experience in personal finance, stock market
-                      analysis, and wealth management. He specializes in helping
-                      individuals build sustainable passive income streams and
-                      optimize their investment portfolios for long-term growth.
-                    </p>
+                {/* Author Bio Section — E-E-A-T */}
+                <div className="border-stroke dark:border-strokedark mt-12.5 rounded-2xl border bg-slate-50 p-6 md:p-10 dark:bg-black">
+                  <div className="flex flex-col items-center gap-6 md:flex-row md:items-start">
+                    <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full ring-2 ring-primary ring-offset-2">
+                      <Image
+                        src="/images/team/founder.PNG"
+                        alt="Gulraiz Zafar — Senior Financial Analyst"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="flex-1 text-center md:text-left">
+                      <div className="mb-1 flex flex-wrap items-center justify-center gap-2 md:justify-start">
+                        <h4 className="text-xl font-bold text-black dark:text-white">
+                          Gulraiz Zafar
+                        </h4>
+                        <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
+                          ✓ Verified Author
+                        </span>
+                      </div>
+                      <p className="text-primary mb-3 text-sm font-semibold tracking-wide">
+                        Senior Financial Analyst &amp; Founder, WealthPilot
+                      </p>
+                      <p className="mb-4 text-sm leading-relaxed text-slate-600 dark:text-manatee">
+                        Gulraiz Zafar has 10+ years of experience in personal
+                        finance, investment strategy, and global market analysis.
+                        He founded WealthPilot to provide regulatory-backed,
+                        data-driven financial guidance — cross-referenced against
+                        the SEC, IRS, CFPB, and Federal Reserve — to help
+                        everyday readers make smarter money decisions.
+                      </p>
+                      {/* Credential tags */}
+                      <div className="mb-4 flex flex-wrap justify-center gap-2 md:justify-start">
+                        {["Personal Finance", "Investment Strategy", "Debt Management", "Mortgage Analysis"].map((tag) => (
+                          <span key={tag} className="rounded-full border border-stroke bg-white px-3 py-1 text-xs font-medium dark:border-strokedark dark:bg-blacksection">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      {/* Stats row */}
+                      <div className="mb-5 flex flex-wrap justify-center gap-6 md:justify-start">
+                        <div className="text-center md:text-left">
+                          <p className="text-lg font-bold text-black dark:text-white">10+</p>
+                          <p className="text-xs text-slate-500">Yrs. Experience</p>
+                        </div>
+                        <div className="text-center md:text-left">
+                          <p className="text-lg font-bold text-black dark:text-white">30+</p>
+                          <p className="text-xs text-slate-500">Guides Published</p>
+                        </div>
+                        <div className="text-center md:text-left">
+                          <p className="text-lg font-bold text-black dark:text-white">80+</p>
+                          <p className="text-xs text-slate-500">Sources Cited</p>
+                        </div>
+                      </div>
+                      <a
+                        href="/author/gulraiz-zafar"
+                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
+                      >
+                        View Full Author Profile
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
+                          <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
 
