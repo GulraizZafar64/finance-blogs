@@ -3,10 +3,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-
-  // other metadata
-  description: "This is Support page for Solid Pro"
+  title: "Support - WealthPilot",
+  description: "Get in touch with the WealthPilot team for support, inquiries, or feedback regarding our financial content."
 };
 
 const SupportPage = () => {

@@ -151,12 +151,12 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/terms" className="mb-3 inline-block hover:text-primary">
+                      <a href="/terms-of-service" className="mb-3 inline-block hover:text-primary">
                         Terms of Service
                       </a>
                     </li>
                     <li>
-                      <a href="/privacy" className="mb-3 inline-block hover:text-primary">
+                      <a href="/privacy-policy" className="mb-3 inline-block hover:text-primary">
                         Privacy Policy
                       </a>
                     </li>
@@ -255,7 +255,7 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-8">
                 <li>
-                  <a href="/privacy" className="hover:text-primary">
+                  <a href="/privacy-policy" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
