@@ -2450,6 +2450,205 @@ const BlogData: Blog[] = [
       </div>
     `,
   },
+  {
+    _id: 999,
+    mainImage:
+      "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhZGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+    title: "Tariff Shock & the S&P 500: How to Protect Your Portfolio in April 2026",
+    slug: "tariff-shock-sp500-april-2026",
+    metadata:
+      "With new US tariffs sending shockwaves through global markets, we break down which sectors are at risk, which are thriving, and the exact defensive moves smart investors are making right now.",
+    publishedAt: "April 19, 2026",
+    tags: ["Investing", "Markets", "Personal Finance"],
+    body: `
+      <p>April 2026 has delivered one of the most turbulent market environments since the post-pandemic correction. A new round of sweeping US tariffs — averaging 18% on imports from major trading partners — has rattled equity markets, rerouted supply chains, and forced portfolio managers to rethink risk exposure almost overnight. If you're an individual investor wondering what to do next, this is your comprehensive, data-driven guide.</p>
+
+      <div class="my-8 rounded-xl border-l-4 border-primary bg-primary/5 p-6 dark:bg-primary/10">
+        <p class="text-sm font-bold uppercase tracking-wide text-primary">⚡ Today's Market Snapshot — April 19, 2026</p>
+        <div class="mt-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+          <div class="rounded-lg bg-white p-4 text-center shadow-sm dark:bg-black">
+            <p class="text-2xl font-bold text-red-500">-4.8%</p>
+            <p class="mt-1 text-xs text-slate-500">S&P 500 (MTD)</p>
+          </div>
+          <div class="rounded-lg bg-white p-4 text-center shadow-sm dark:bg-black">
+            <p class="text-2xl font-bold text-red-400">-7.2%</p>
+            <p class="mt-1 text-xs text-slate-500">Nasdaq (MTD)</p>
+          </div>
+          <div class="rounded-lg bg-white p-4 text-center shadow-sm dark:bg-black">
+            <p class="text-2xl font-bold text-green-500">+3.1%</p>
+            <p class="mt-1 text-xs text-slate-500">Gold (MTD)</p>
+          </div>
+          <div class="rounded-lg bg-white p-4 text-center shadow-sm dark:bg-black">
+            <p class="text-2xl font-bold text-blue-500">4.52%</p>
+            <p class="mt-1 text-xs text-slate-500">10-Yr Treasury</p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Understanding the Tariff Mechanism</h3>
+      <p>Tariffs are essentially a tax on imported goods paid by domestic importers — typically passed on to consumers and businesses. When the US imposes an 18% blanket tariff, it triggers a chain reaction: manufacturing costs rise, corporate margins compress, consumer prices increase, and international trade partners often retaliate. The net effect on the stock market is almost always short-term volatility paired with a longer-term sector rotation.</p>
+
+      <h3>Sector Impact Analysis: Winners & Losers</h3>
+      <p>Not all sectors suffer equally. The 2026 tariff regime has created a stark bifurcation — domestically-focused businesses are gaining pricing power, while import-heavy industries are under severe margin pressure. The table below breaks down the impact by sector:</p>
+
+      <div class="my-8 overflow-x-auto">
+        <table class="min-w-full border-collapse border border-slate-200 text-sm dark:border-slate-700">
+          <thead class="bg-slate-50 dark:bg-slate-800">
+            <tr>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">Sector</th>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">Tariff Exposure</th>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">April 2026 Performance</th>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">Analyst Outlook</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Consumer Discretionary</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">🔴 Very High</td>
+              <td class="border border-slate-200 p-4 text-red-600 dark:border-slate-700">-9.4%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">Underweight</td>
+            </tr>
+            <tr class="bg-slate-50 dark:bg-slate-900">
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Technology (Hardware)</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">🔴 High</td>
+              <td class="border border-slate-200 p-4 text-red-600 dark:border-slate-700">-8.1%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">Underweight</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Industrials (Domestic)</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">🟡 Moderate</td>
+              <td class="border border-slate-200 p-4 text-yellow-600 dark:border-slate-700">-1.2%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">Neutral</td>
+            </tr>
+            <tr class="bg-slate-50 dark:bg-slate-900">
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Energy</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">🟡 Low</td>
+              <td class="border border-slate-200 p-4 text-green-600 dark:border-slate-700">+1.8%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">Overweight</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Healthcare</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">🟢 Very Low</td>
+              <td class="border border-slate-200 p-4 text-green-600 dark:border-slate-700">+2.3%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">Overweight</td>
+            </tr>
+            <tr class="bg-slate-50 dark:bg-slate-900">
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Utilities</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">🟢 Minimal</td>
+              <td class="border border-slate-200 p-4 text-green-600 dark:border-slate-700">+4.1%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">Overweight</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>April 2026: S&P 500 Sector Performance Chart</h3>
+      <p>The chart below visualizes the month-to-date performance dispersion across major S&P 500 sectors as of April 19, 2026. The defensive tilt is unmistakable:</p>
+
+      <div id="apex-sector-chart" class="my-8" style="min-height:380px;"></div>
+
+      <h3>The Historical Playbook: What Happens After Tariff Shocks</h3>
+      <p>History provides a valuable roadmap. Looking at prior periods of significant tariff escalation — the 2018–2019 US-China trade war being the most recent major precedent — we can model how markets typically recover. The key insight is that the initial volatility is sharp but often short-lived if a resolution path is visible.</p>
+
+      <div id="apex-recovery-chart" class="my-8" style="min-height:340px;"></div>
+
+      <h3>3 Defensive Portfolio Moves for April 2026</h3>
+      <p>While panic-selling is never the answer, a disciplined rebalancing toward defensiveness is prudent. Here are three evidence-based strategies being employed by institutional portfolio managers right now:</p>
+
+      <div class="my-8 grid grid-cols-1 gap-5 md:grid-cols-3">
+        <div class="rounded-xl border border-green-200 bg-green-50 p-6 dark:border-green-900 dark:bg-green-900/20">
+          <div class="mb-3 text-3xl">🛡️</div>
+          <h4 class="mb-2 font-bold text-green-800 dark:text-green-400">1. Tilt to Defensives</h4>
+          <p class="text-sm text-green-700 dark:text-green-300">Increase allocation to Utilities, Healthcare, and Consumer Staples. These sectors have low import exposure and stable domestic demand.</p>
+        </div>
+        <div class="rounded-xl border border-blue-200 bg-blue-50 p-6 dark:border-blue-900 dark:bg-blue-900/20">
+          <div class="mb-3 text-3xl">🥇</div>
+          <h4 class="mb-2 font-bold text-blue-800 dark:text-blue-400">2. Add Real Assets</h4>
+          <p class="text-sm text-blue-700 dark:text-blue-300">Gold historically outperforms during trade wars. A 5–10% allocation via GLD or IAU provides inflation and currency hedging.</p>
+        </div>
+        <div class="rounded-xl border border-purple-200 bg-purple-50 p-6 dark:border-purple-900 dark:bg-purple-900/20">
+          <div class="mb-3 text-3xl">💵</div>
+          <h4 class="mb-2 font-bold text-purple-800 dark:text-purple-400">3. Raise Cash & T-Bills</h4>
+          <p class="text-sm text-purple-700 dark:text-purple-300">With 10-year yields at 4.52%, short-term Treasuries offer a guaranteed 4%+ return while you wait for clarity. BIL or SGOV are ideal vehicles.</p>
+        </div>
+      </div>
+
+      <h3>Suggested Portfolio Allocation: Tariff Environment</h3>
+      <p>The following allocation model is designed for a moderate-risk investor navigating the current tariff uncertainty. It emphasizes capital preservation while maintaining upside exposure for when a trade deal resolution is announced:</p>
+
+      <div class="my-8 overflow-x-auto">
+        <table class="min-w-full border-collapse border border-slate-200 text-sm dark:border-slate-700">
+          <thead class="bg-slate-50 dark:bg-slate-800">
+            <tr>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">Asset Class</th>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">Pre-Tariff Allocation</th>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">Tariff-Adjusted Allocation</th>
+              <th class="border border-slate-200 p-4 text-left font-bold dark:border-slate-700">Vehicle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">US Equities (Broad)</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">50%</td>
+              <td class="border border-slate-200 p-4 font-bold text-yellow-600 dark:border-slate-700">35%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">VTI / SPY</td>
+            </tr>
+            <tr class="bg-slate-50 dark:bg-slate-900">
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Defensive Sectors</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">5%</td>
+              <td class="border border-slate-200 p-4 font-bold text-green-600 dark:border-slate-700">20%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">XLU, XLV, XLP</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Short-Term Treasuries</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">10%</td>
+              <td class="border border-slate-200 p-4 font-bold text-green-600 dark:border-slate-700">25%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">BIL / SGOV</td>
+            </tr>
+            <tr class="bg-slate-50 dark:bg-slate-900">
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Gold / Real Assets</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">5%</td>
+              <td class="border border-slate-200 p-4 font-bold text-green-600 dark:border-slate-700">10%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">GLD / IAU</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">International (Ex-US)</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">20%</td>
+              <td class="border border-slate-200 p-4 font-bold text-yellow-600 dark:border-slate-700">10%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">VXUS / EFA</td>
+            </tr>
+            <tr class="bg-slate-50 dark:bg-slate-900">
+              <td class="border border-slate-200 p-4 font-medium dark:border-slate-700">Bonds (Aggregate)</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">10%</td>
+              <td class="border border-slate-200 p-4 font-bold text-slate-600 dark:border-slate-700">0%</td>
+              <td class="border border-slate-200 p-4 dark:border-slate-700">—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <blockquote>"In the short run, the market is a voting machine. In the long run, it is a weighing machine." — Benjamin Graham</blockquote>
+
+      <h3>What to Watch: Key Catalysts for a Market Recovery</h3>
+      <p>The current downturn is primarily sentiment and uncertainty-driven. Any one of the following developments could trigger a sharp reversal and a return to the bull trend:</p>
+      <ul>
+        <li><strong>Trade Negotiations Resume:</strong> Any credible signal of bilateral talks between the US and its major trading partners (EU, China, Mexico) would immediately boost risk appetite.</li>
+        <li><strong>Fed Policy Pivot:</strong> If tariff-driven slowdown data leads the Federal Reserve to signal rate cuts, this would provide a powerful tailwind for equities.</li>
+        <li><strong>Q1 2026 Earnings:</strong> Strong corporate earnings — particularly from domestically-focused companies — could reinforce the narrative that the economy remains fundamentally sound.</li>
+        <li><strong>CPI Data:</strong> If tariff pass-throughs prove smaller than feared, easing inflation data would reduce the stagflation risk premium the market is currently pricing in.</li>
+      </ul>
+
+      <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
+        <h4 class="mb-4 text-lg font-bold">Data & Sources:</h4>
+        <ul class="text-sm text-slate-600 dark:text-slate-400">
+          <li class="mb-2">1. <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" class="text-primary hover:underline" target="_blank">Federal Reserve — FOMC Policy Statements 2026</a></li>
+          <li class="mb-2">2. <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases" class="text-primary hover:underline" target="_blank">USTR — Official Tariff Policy Press Releases</a></li>
+          <li class="mb-2">3. <a href="https://www.spglobal.com/spdji/en/" class="text-primary hover:underline" target="_blank">S&P Dow Jones Indices — Sector Performance Data</a></li>
+          <li class="mb-2">4. <a href="https://www.bls.gov/news.release/cpi.nr0.htm" class="text-primary hover:underline" target="_blank">BLS — Consumer Price Index and Inflation Data</a></li>
+        </ul>
+      </div>
+    `,
+  },
 ];
 
 export default BlogData;

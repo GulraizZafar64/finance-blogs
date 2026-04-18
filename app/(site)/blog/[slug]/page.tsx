@@ -1,6 +1,7 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
 import BlogData from "@/components/Blog/blogData";
+import TariffCharts from "@/components/Blog/TariffCharts";
 import { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -180,6 +181,9 @@ const SingleBlogPage = async ({ params }: { params: { slug: string } }) => {
                 <div className="blog-details prose prose-slate dark:prose-invert max-w-none">
                   <div dangerouslySetInnerHTML={{ __html: post.body || "" }} />
                 </div>
+
+                {/* ApexCharts for tariff blog post */}
+                {post.slug === "tariff-shock-sp500-april-2026" && <TariffCharts />}
 
                 <div className="border-primary/20 bg-primary/5 dark:border-primary/30 mt-10 rounded-2xl border p-6 text-sm text-slate-700 dark:bg-white/5 dark:text-slate-200">
                   <p className="font-semibold text-black dark:text-white">

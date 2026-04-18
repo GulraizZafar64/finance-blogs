@@ -7,6 +7,7 @@ import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
+import TodayBlog from "@/components/Blog/TodayBlog";
 
 export const metadata: Metadata = {
   title: "WealthPilot | Expert Financial Insights & Wealth Management",
@@ -18,6 +19,7 @@ export default function Home() {
     <main>
       <Hero />
       <Category />
+      <TodayBlog />
       <Blog />
       <Feature />
       <CTA />
