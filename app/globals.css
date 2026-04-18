@@ -194,6 +194,11 @@
   @apply mb-10 list-inside list-disc text-titlebgdark;
 }
 
+/* Citation / source lists use manual numbers — suppress the auto-bullet */
+.blog-details ul.list-none {
+  @apply list-none pl-0;
+}
+
 .blog-details li,
 .blog-details li {
   @apply mb-2 text-base text-titlebgdark dark:text-waterloo;

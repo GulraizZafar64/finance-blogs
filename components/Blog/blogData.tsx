@@ -75,7 +75,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Sources & Citations:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.spglobal.com/spdji/en/research-insights/spiva/" class="text-primary hover:underline" target="_blank">S&P Down Jones Indices - SPIVA Scorecard Analysis</a></li>
           <li class="mb-2">2. <a href="https://investor.vanguard.com/investment-products/mutual-funds/profile/vtsax" class="text-primary hover:underline" target="_blank">Vanguard VTSAX Fund Profile and Prospectus</a></li>
           <li class="mb-2">3. <a href="https://www.bogleheads.org/wiki/Three-fund_portfolio" class="text-primary hover:underline" target="_blank">Bogleheads Wiki - The Three-Fund Portfolio Guide</a></li>
@@ -130,7 +130,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Recommended Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/about-us/blog/budgeting-how-to/" class="text-primary hover:underline" target="_blank">CFPB - Official Guide to Effective Budgeting</a></li>
           <li class="mb-2">2. <a href="https://www.ramseysolutions.com/budgeting/how-to-make-a-budget" class="text-primary hover:underline" target="_blank">Ramsey Solutions - Zero-Based Budgeting Explained</a></li>
           <li class="mb-2">3. <a href="https://hbr.org/2012/10/the-personal-budget-as-strategic-tool" class="text-primary hover:underline" target="_blank">Harvard Business Review - The Personal Budget as a Strategic Tool</a></li>
@@ -201,7 +201,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Scientific and Regulatory Citations:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://finance.ec.europa.eu/digital-finance/markets-crypto-assets-mica_en" class="text-primary hover:underline" target="_blank">European Commission - MiCA Regulation Overview</a></li>
           <li class="mb-2">2. <a href="https://www.sec.gov/newsroom/speeches-statements/crypto-assets-sec-authority" class="text-primary hover:underline" target="_blank">SEC - Digital Asset Enforcement and Authority Statements</a></li>
           <li class="mb-2">3. <a href="https://www.fidelitydigitalassets.com/research-and-insights" class="text-primary hover:underline" target="_blank">Fidelity Digital Assets - 2026 Institutional Investor Study</a></li>
@@ -262,7 +262,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Industry Data & Authority Links:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.sec.gov/oiea/investor-alerts-and-bulletins/ib_crowdfundingquickguide" class="text-primary hover:underline" target="_blank">SEC - Investor Bulletin: Crowdfunding for Investors</a></li>
           <li class="mb-2">2. <a href="https://www.finra.org/investors/alerts/real-estate-crowdfunding" class="text-primary hover:underline" target="_blank">FINRA - Real Estate Crowdfunding Risks</a></li>
           <li class="mb-2">3. <a href="https://fundrise.com/track-record" class="text-primary hover:underline" target="_blank">Fundrise - Historical Performance Data</a></li>
@@ -318,7 +318,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Official IRS and Advisory Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.irs.gov/newsroom/tax-law-changes-special-provisions" class="text-primary hover:underline" target="_blank">IRS - 2026 Tax Law Changes and Special Provisions</a></li>
           <li class="mb-2">2. <a href="https://www.irs.gov/publications/p535" class="text-primary hover:underline" target="_blank">IRS Publication 535 - Business Expenses and Deductions</a></li>
           <li class="mb-2">3. <a href="https://www.taxpayeradvocate.irs.gov/" class="text-primary hover:underline" target="_blank">Taxpayer Advocate Service - Rights and Strategies</a></li>
@@ -374,7 +374,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Financial Framework Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.investor.gov/financial-planning-tools/debt-management/pay-down-debt-or-invest" class="text-primary hover:underline" target="_blank">SEC - Paying Down Debt vs. Investing</a></li>
           <li class="mb-2">2. <a href="https://www.finra.org/investors/insights/pay-down-debt-or-invest" class="text-primary hover:underline" target="_blank">FINRA - Strategic Debt Management</a></li>
           <li class="mb-2">3. <a href="https://www.federalreserve.gov/consumerscommunities/personal-finance.htm" class="text-primary hover:underline" target="_blank">Federal Reserve - Personal Finance Resources</a></li>
@@ -429,7 +429,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Borrower Protection & Data Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-an-interest-rate-and-the-apr-on-a-personal-loan-en-152/" class="text-primary hover:underline" target="_blank">CFPB - Interest Rate vs. APR Explained</a></li>
           <li class="mb-2">2. <a href="https://www.ftc.gov/business-guidance/privacy-data-security/credit-reporting" class="text-primary hover:underline" target="_blank">FTC - Understanding Credit Reporting</a></li>
           <li class="mb-2">3. <a href="https://www.stlouisfed.org/publications/regional-economist/2026/consumer-credit-trends" class="text-primary hover:underline" target="_blank">St. Louis Fed - 2026 Consumer Credit Trends</a></li>
@@ -499,7 +499,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Authoritative Credit Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.myfico.com/credit-education/whats-in-your-credit-score" class="text-primary hover:underline" target="_blank">FICO - Detailed Breakdown of Scoring Factors</a></li>
           <li class="mb-2">2. <a href="https://www.annualcreditreport.com/" class="text-primary hover:underline" target="_blank">AnnualCreditReport - Official Source for Free Federal Reports</a></li>
           <li class="mb-2">3. <a href="https://www.ftc.gov/business-guidance/privacy-data-security/credit-reporting" class="text-primary hover:underline" target="_blank">FTC - Guide to the Fair Credit Reporting Act</a></li>
@@ -555,7 +555,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Business Financial Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.sba.gov/funding-programs/loans" class="text-primary hover:underline" target="_blank">SBA - Official Loan Programs</a></li>
           <li class="mb-2">2. <a href="https://www.score.org/" class="text-primary hover:underline" target="_blank">SCORE - Mentors for Small Business</a></li>
           <li class="mb-2">3. <a href="https://www.nfib.com/" class="text-primary hover:underline" target="_blank">NFIB - National Federation of Independent Business</a></li>
@@ -610,7 +610,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Debt Advisory Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-consolidation-loan-en-1891/" class="text-primary hover:underline" target="_blank">CFPB - What is a Debt Consolidation Loan?</a></li>
           <li class="mb-2">2. <a href="https://www.nfcc.org/" class="text-primary hover:underline" target="_blank">NFCC - High-Quality Credit Counseling</a></li>
           <li class="mb-2">3. <a href="https://www.ftc.gov/news-events/topics/consumer-finance/debt-relief-credit-repair" class="text-primary hover:underline" target="_blank">FTC - Debt Relief and Credit Repair Info</a></li>
@@ -665,7 +665,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Business Growth Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.sba.gov/funding-programs/loans" class="text-primary hover:underline" target="_blank">SBA - Funding Programs and Eligibility</a></li>
           <li class="mb-2">2. <a href="https://www.score.org/resource/article/business-loan-readiness-checklist" class="text-primary hover:underline" target="_blank">SCORE - Business Loan Readiness Checklist</a></li>
           <li class="mb-2">3. <a href="https://www.frbsf.org/research-and-insights/data-and-indicators/small-business-credit-survey/" class="text-primary hover:underline" target="_blank">Fed - Small Business Credit Survey Data</a></li>
@@ -721,7 +721,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Lending Quality & Safety Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/consumer-tools/loans/" class="text-primary hover:underline" target="_blank">CFPB - Consumer Tools for Loans</a></li>
           <li class="mb-2">2. <a href="https://www.upstart.com/about" class="text-primary hover:underline" target="_blank">Upstart - Understanding AI Underwriting</a></li>
           <li class="mb-2">3. <a href="https://www.experian.com/blogs/ask-experian/can-you-get-a-personal-loan-with-bad-credit/" class="text-primary hover:underline" target="_blank">Experian - Loans for Bad Credit Guide</a></li>
@@ -772,7 +772,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Lending Quality & Safety Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.federalreserve.gov/releases/h15/" class="text-primary hover:underline" target="_blank">Federal Reserve - Selected Interest Rates</a></li>
           <li class="mb-2">2. <a href="https://www.consumerfinance.gov/consumer-tools/credit-cards/" class="text-primary hover:underline" target="_blank">CFPB - Credit Card Consumer Tools</a></li>
           <li class="mb-2">3. <a href="https://www.experian.com/blogs/ask-experian/is-it-better-to-get-a-loan-or-use-a-credit-card/" class="text-primary hover:underline" target="_blank">Experian - Loan vs Credit Card Analysis</a></li>
@@ -828,7 +828,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Debt Management Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-debt-consolidation-loan-and-a-debt-management-plan-en-1473/" class="text-primary hover:underline" target="_blank">CFPB - Loan vs Management Plan</a></li>
           <li class="mb-2">2. <a href="https://www.sofi.com/personal-loans/debt-consolidation-loans/" class="text-primary hover:underline" target="_blank">SoFi - Debt Consolidation Strategy</a></li>
           <li class="mb-2">3. <a href="https://www.bankrate.com/loans/personal-loans/best-debt-consolidation-loans/" class="text-primary hover:underline" target="_blank">Live Data - Top 10 Consolidation Loans</a></li>
@@ -884,7 +884,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Emergency Lending Authority Links:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-payday-loan-en-1567/" class="text-primary hover:underline" target="_blank">CFPB - Payday Loan Warning and Info</a></li>
           <li class="mb-2">2. <a href="https://www.nclc.org/special-projects/payday-and-installment-loans.html" class="text-primary hover:underline" target="_blank">NCLC - Protection from Predatory Lending</a></li>
           <li class="mb-2">3. <a href="https://www.nerdwallet.com/best/loans/personal-loans/emergency-loans" class="text-primary hover:underline" target="_blank">Market Data - Fastest Emergency Loans</a></li>
@@ -947,7 +947,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Scientific & Consumer Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.iii.org/article/what-are-the-different-types-of-life-insurance-policies" class="text-primary hover:underline" target="_blank">Insurance Information Institute - Life Insurance Types</a></li>
           <li class="mb-2">2. <a href="https://web.ambest.com/ratings-guide" class="text-primary hover:underline" target="_blank">A.M. Best - Understanding Financial Strength Ratings</a></li>
           <li class="mb-2">3. <a href="https://www.naic.org/consumer_life_insurance.htm" class="text-primary hover:underline" target="_blank">NAIC - National Association of Insurance Commissioners Consumer Guide</a></li>
@@ -993,7 +993,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Recommended Safety & Rating Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.iihs.org/ratings" class="text-primary hover:underline" target="_blank">IIHS - Vehicle Safety Ratings & Crash Tests</a></li>
           <li class="mb-2">2. <a href="https://www.nhtsa.gov/ratings" class="text-primary hover:underline" target="_blank">NHTSA - Safety Ratings of 2026 Models</a></li>
           <li class="mb-2">3. <a href="https://www.iii.org/article/what-determines-price-my-auto-insurance-policy" class="text-primary hover:underline" target="_blank">III - Factors Influencing Auto Premiums</a></li>
@@ -1032,7 +1032,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Official Healthcare & Tax Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.healthcare.gov/self-employed/" class="text-primary hover:underline" target="_blank">Healthcare.gov - Self-Employed Marketplace Guide</a></li>
           <li class="mb-2">2. <a href="https://www.irs.gov/publications/p502" class="text-primary hover:underline" target="_blank">IRS Publication 502 - Medical and Dental Expenses</a></li>
           <li class="mb-2">3. <a href="https://www.kff.org/health-reform/" class="text-primary hover:underline" target="_blank">KFF - Health Reform & Subsidy Analysis</a></li>
@@ -1088,7 +1088,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">State Insurance & Data Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.naic.org/consumer_auto_insurance.htm" class="text-primary hover:underline" target="_blank">NAIC - State Insurance Department Map</a></li>
           <li class="mb-2">2. <a href="https://www.iii.org/fact-statistic/facts-statistics-auto-insurance" class="text-primary hover:underline" target="_blank">III - Auto Insurance Facts & Trends</a></li>
           <li class="mb-2">3. <a href="https://www.fmcsa.dot.gov/registration/insurance-requirements" class="text-primary hover:underline" target="_blank">DOT - Federal Insurance Requirements Guide</a></li>
@@ -1150,7 +1150,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Credit Card Issuer & Consumer Protection Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/consumer-tools/credit-cards/" class="text-primary hover:underline" target="_blank">CFPB - Consumer Guide to Credit Cards</a></li>
           <li class="mb-2">2. <a href="https://www.americanexpress.com/us/credit-cards/category/cash-back/" class="text-primary hover:underline" target="_blank">American Express - Cash Back Terms & Disclosures</a></li>
           <li class="mb-2">3. <a href="https://cardapp.com/rules" class="text-primary hover:underline" target="_blank">CardApp - Real-time Rewards Tracking Analysis</a></li>
@@ -1187,7 +1187,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Financial Regulation & Advisory Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.occ.treas.gov/topics/supervision-and-examination/consumer-compliance/index-consumer-compliance.html" class="text-primary hover:underline" target="_blank">OCC - Credit Card Consumer Compliance</a></li>
           <li class="mb-2">2. <a href="https://www.chase.com/personal/credit-cards/education/basics/how-does-zero-percent-apr-work" class="text-primary hover:underline" target="_blank">Chase Education - How 0% APR Works</a></li>
           <li class="mb-2">3. <a href="https://www.nerdwallet.com/best/credit-cards/0-apr" class="text-primary hover:underline" target="_blank">Market Analysis - Top Interest-Free Offers 2026</a></li>
@@ -1246,7 +1246,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Business Finance & Credit Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.sba.gov/business-guide/manage-your-business/pay-taxes" class="text-primary hover:underline" target="_blank">SBA - Small Business Tax & Credit Guide</a></li>
           <li class="mb-2">2. <a href="https://www.dnb.com/resources/what-is-a-d-u-n-s-number.html" class="text-primary hover:underline" target="_blank">Dun & Bradstreet - Building Business Credit</a></li>
           <li class="mb-2">3. <a href="https://www.americanexpress.com/us/business/credit-cards/" class="text-primary hover:underline" target="_blank">Amex Business - Terms and Conditions for B2B</a></li>
@@ -1294,7 +1294,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Consumer Rights & Credit Advisory:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumer.ftc.gov/articles/0155-free-credit-reports" class="text-primary hover:underline" target="_blank">FTC - Your Rights to Free Credit Reports</a></li>
           <li class="mb-2">2. <a href="https://www.experian.com/blogs/ask-experian/how-to-rebuild-bad-credit/" class="text-primary hover:underline" target="_blank">Experian - Official Guide to Score Recovery</a></li>
           <li class="mb-2">3. <a href="https://www.nfcc.org/" class="text-primary hover:underline" target="_blank">NFCC - National Foundation for Credit Counseling</a></li>
@@ -1350,7 +1350,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Lending & Market Statistics:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.freddiemac.com/pmms" class="text-primary hover:underline" target="_blank">Freddie Mac - Primary Mortgage Market Survey</a></li>
           <li class="mb-2">2. <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" class="text-primary hover:underline" target="_blank">Federal Reserve - Monetary Policy Updates</a></li>
           <li class="mb-2">3. <a href="https://www.mba.org/news-and-research/research-and-economics" class="text-primary hover:underline" target="_blank">MBA - Mortgage Bankers Association Research</a></li>
@@ -1406,7 +1406,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Lender Data & Consumer Protection:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/owning-a-home/loan-estimate/" class="text-primary hover:underline" target="_blank">CFPB - Understanding Your Loan Estimate</a></li>
           <li class="mb-2">2. <a href="https://www.rocketmortgage.com/learn/mortgage-process" class="text-primary hover:underline" target="_blank">Industry View - The Modern Mortgage Process</a></li>
           <li class="mb-2">3. <a href="https://www.bankrate.com/mortgages/best-mortgage-lenders/" class="text-primary hover:underline" target="_blank">Market Review - 2026 Lender Rankings</a></li>
@@ -1455,7 +1455,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Government Housing Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.hud.gov/program_offices/housing/fhahistory" class="text-primary hover:underline" target="_blank">HUD - History & Purpose of the FHA</a></li>
           <li class="mb-2">2. <a href="https://entp.hud.gov/idapp/html/hicostlook.cfm" class="text-primary hover:underline" target="_blank">FHA Mortgage Limits - Lookup Tool</a></li>
           <li class="mb-2">3. <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-insurance-premium-mip-en-1405/" class="text-primary hover:underline" target="_blank">CFPB - Explaining MIP on FHA Loans</a></li>
@@ -1491,7 +1491,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Refinance & Equity Analysis Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/owning-a-home/refinance/" class="text-primary hover:underline" target="_blank">CFPB - Guide to Mortgage Refinancing</a></li>
           <li class="mb-2">2. <a href="https://www.zillow.com/mortgage-rates/refinance/" class="text-primary hover:underline" target="_blank">Market Data - Live Refinance Rate Tracker</a></li>
           <li class="mb-2">3. <a href="https://www.mortgagenewsdaily.com/" class="text-primary hover:underline" target="_blank">MND - Daily Mortgage Market Commentary</a></li>
@@ -1548,7 +1548,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Fintech & Regulatory Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-interpretive-rule-to-ensure-buy-now-pay-later-borrowers-get-key-legal-protections-which-apply-to-credit-cards/" class="text-primary hover:underline" target="_blank">CFPB - BNPL Consumer Protections Update</a></li>
           <li class="mb-2">2. <a href="https://www.affirm.com/how-it-works" class="text-primary hover:underline" target="_blank">Affirm - Understanding APR and Installments</a></li>
           <li class="mb-2">3. <a href="https://www.klarna.com/us/customer-service/does-klarna-affect-my-credit-score/" class="text-primary hover:underline" target="_blank">Klarna - Credit Score Disclosure</a></li>
@@ -1604,7 +1604,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">AI & Fintech Data Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/data-research/research-reports/chatbots-in-consumer-finance/" class="text-primary hover:underline" target="_blank">CFPB - Report on AI Chatbots in Finance</a></li>
           <li class="mb-2">2. <a href="https://www.occ.treas.gov/news-issuances/news-releases/2026/nr-occ-2026-15.html" class="text-primary hover:underline" target="_blank">OCC - Supervisory Guidance on AI Risk</a></li>
           <li class="mb-2">3. <a href="https://www.finra.org/rules-guidance/key-topics/artificial-intelligence" class="text-primary hover:underline" target="_blank">FINRA - AI in Securities Markets</a></li>
@@ -1664,7 +1664,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Government Student Loan Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://studentaid.gov/manage-loans/repayment/plans" class="text-primary hover:underline" target="_blank">StudentAid.gov - Repayment Plan Comparison</a></li>
           <li class="mb-2">2. <a href="https://www.ed.gov/news/press-releases/student-loan-debt-relief" class="text-primary hover:underline" target="_blank">Dept of Ed - Debt Relief Announcements</a></li>
           <li class="mb-2">3. <a href="https://www.consumerfinance.gov/consumer-tools/student-loans/" class="text-primary hover:underline" target="_blank">CFPB - Student Loan Resource Center</a></li>
@@ -1720,7 +1720,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Banking & Yield Statistics:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.fdic.gov/resources/consumers/index.html" class="text-primary hover:underline" target="_blank">FDIC - Consumer Resource Center</a></li>
           <li class="mb-2">2. <a href="https://www.occ.treas.gov/topics/charters-and-licensing/financial-institution-lists/index-financial-institution-lists.html" class="text-primary hover:underline" target="_blank">OCC - List of Nationally Chartered Banks</a></li>
           <li class="mb-2">3. <a href="https://www.bankrate.com/banking/savings/best-high-yield-interests-rates/" class="text-primary hover:underline" target="_blank">Live Data - National Savings Yield Review</a></li>
@@ -1757,7 +1757,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Investment Research & Data:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://investor.vanguard.com/investor-resources-education/index-funds" class="text-primary hover:underline" target="_blank">Vanguard - Why Indexing Works</a></li>
           <li class="mb-2">2. <a href="https://www.finra.org/investors/investing-basics" class="text-primary hover:underline" target="_blank">FINRA - Investing Basics for Professionals</a></li>
           <li class="mb-2">3. <a href="https://www.sec.gov/investor/alerts/ib_indexfunds.pdf" class="text-primary hover:underline" target="_blank">SEC - Guide to Mutual Funds and ETFs</a></li>
@@ -1834,7 +1834,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Passive Income & Investment Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.irs.gov/taxtopics/tc425" class="text-primary hover:underline" target="_blank">IRS Topic No. 425 - Passive Activities</a></li>
           <li class="mb-2">2. <a href="https://www.sec.gov/oiea/investor-alerts-and-bulletins/ib_reits" class="text-primary hover:underline" target="_blank">SEC - Investor Bulletin on REITs</a></li>
           <li class="mb-2">3. <a href="https://investor.vanguard.com/investor-resources-education/taxes/taxes-on-dividends" class="text-primary hover:underline" target="_blank">Vanguard - Understanding Dividend Taxes</a></li>
@@ -1947,7 +1947,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Small Business & Gig Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.irs.gov/businesses/small-businesses-self-employed/self-employed-individuals-tax-center" class="text-primary hover:underline" target="_blank">IRS - Self-Employed Tax Center</a></li>
           <li class="mb-2">2. <a href="https://www.sba.gov/business-guide/10-steps-start-your-business" class="text-primary hover:underline" target="_blank">SBA - Path to Small Business Ownership</a></li>
           <li class="mb-2">3. <a href="https://www.upwork.com/research/freelance-forward-2026" class="text-primary hover:underline" target="_blank">Upwork - State of Freelancing 2026</a></li>
@@ -2047,7 +2047,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Credit Reporting & Consumer Rights:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-score-en-315/" class="text-primary hover:underline" target="_blank">CFPB - What is a Credit Score?</a></li>
           <li class="mb-2">2. <a href="https://www.myfico.com/credit-education/whats-in-your-credit-score" class="text-primary hover:underline" target="_blank">FICO - What's in your credit score?</a></li>
           <li class="mb-2">3. <a href="https://www.annualcreditreport.com/" class="text-primary hover:underline" target="_blank">Federal - Annual Credit Report Portal</a></li>
@@ -2103,7 +2103,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Homeownership & Lending Data:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.hud.gov/buying/book" class="text-primary hover:underline" target="_blank">HUD - Common Questions from Home Buyers</a></li>
           <li class="mb-2">2. <a href="https://www.fanniemae.com/educational-resources-home-buyers" class="text-primary hover:underline" target="_blank">Fannie Mae - Learning Center for Borrowers</a></li>
           <li class="mb-2">3. <a href="https://www.nar.realtor/research-and-statistics/housing-statistics" class="text-primary hover:underline" target="_blank">NAR - Monthly Housing Market Statistics</a></li>
@@ -2243,7 +2243,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Retirement & Social Security Resources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.ssa.gov/myaccount/" class="text-primary hover:underline" target="_blank">SSA - Calculate your personalized benefits</a></li>
           <li class="mb-2">2. <a href="https://www.dol.gov/agencies/ebsa/teachers/retirement-toolkit" class="text-primary hover:underline" target="_blank">Dept of Labor - Retirement Toolkit</a></li>
           <li class="mb-2">3. <a href="https://www.finra.org/investors/learn-to-invest/retirement" class="text-primary hover:underline" target="_blank">FINRA - Retirement Savings Guide</a></li>
@@ -2300,7 +2300,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Resilience & Savings Data:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-executive-summary.htm" class="text-primary hover:underline" target="_blank">Fed - Household Economic Well-being 2026</a></li>
           <li class="mb-2">2. <a href="https://www.consumerfinance.gov/start-savings/" class="text-primary hover:underline" target="_blank">CFPB - Start Small, Save Up</a></li>
           <li class="mb-2">3. <a href="https://www.investopedia.com/terms/e/emergency_fund.asp" class="text-primary hover:underline" target="_blank">Market Analysis - Building Resilient Cash Reserves</a></li>
@@ -2442,7 +2442,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Data & Analysis Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.freddiemac.com/pmms" class="text-primary hover:underline" target="_blank">Freddie Mac - Primary Mortgage Market Survey (PMMS)</a></li>
           <li class="mb-2">2. <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" class="text-primary hover:underline" target="_blank">Federal Reserve - FOMC Meeting Projections</a></li>
           <li class="mb-2">3. <a href="https://www.nar.realtor/research-and-statistics" class="text-primary hover:underline" target="_blank">National Association of Realtors - Housing Statistics</a></li>
@@ -2640,7 +2640,7 @@ const BlogData: Blog[] = [
 
       <div class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
         <h4 class="mb-4 text-lg font-bold">Data & Sources:</h4>
-        <ul class="text-sm text-slate-600 dark:text-slate-400">
+        <ul class="list-none text-sm text-slate-600 dark:text-slate-400">
           <li class="mb-2">1. <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" class="text-primary hover:underline" target="_blank">Federal Reserve — FOMC Policy Statements 2026</a></li>
           <li class="mb-2">2. <a href="https://ustr.gov/about-us/policy-offices/press-office/press-releases" class="text-primary hover:underline" target="_blank">USTR — Official Tariff Policy Press Releases</a></li>
           <li class="mb-2">3. <a href="https://www.spglobal.com/spdji/en/" class="text-primary hover:underline" target="_blank">S&P Dow Jones Indices — Sector Performance Data</a></li>
