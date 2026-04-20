@@ -5,8 +5,8 @@ import Link from "next/link";
 import BlogData from "./blogData";
 
 const TodayBlog = () => {
-  // Find post published "April 19, 2026"
-  const todayPost = BlogData.find((b) => b._id === 999);
+  // Find post published "April 20, 2026"
+  const todayPost = BlogData.find((b) => b._id === 1000);
   if (!todayPost) return null;
 
   return (
@@ -31,7 +31,7 @@ const TodayBlog = () => {
             <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500" />
           </span>
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-red-400">
-            Published Today — April 19, 2026
+            Published Today — April 20, 2026
           </span>
         </motion.div>
 
@@ -100,10 +100,10 @@ const TodayBlog = () => {
             {/* Key takeaways */}
             <ul className="mb-8 space-y-2.5">
               {[
-                "Sector winners & losers ranked by tariff exposure",
-                "SVG charts showing April 2026 performance data",
-                "Defensive allocation model for uncertain markets",
-                "4 key catalysts to watch for market recovery",
+                "The rise of the Autonomous CFO in 2026",
+                "Real-time tax optimization and harvesting",
+                "AI-driven utility negotiation and bill management",
+                "Behavioral biometrics for futuristic security",
               ].map((point) => (
                 <li key={point} className="flex items-start gap-2.5 text-sm text-slate-300">
                   <svg className="mt-0.5 h-4 w-4 shrink-0 text-primary" fill="currentColor" viewBox="0 0 20 20">
