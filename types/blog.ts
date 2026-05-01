@@ -15,5 +15,6 @@ export type Blog = {
   mainImage?: any;
   author?: Author;
   tags?: string[];
+  keywords?: string[];
   publishedAt?: string;
 };

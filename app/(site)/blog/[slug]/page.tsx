@@ -24,6 +24,7 @@ export async function generateMetadata({
   return {
     title: `${post.title} | WealthPilot`,
     description: post.metadata,
+    keywords: post.keywords?.join(", "),
     openGraph: {
       title: post.title,
       description: post.metadata,
